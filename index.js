@@ -50,7 +50,7 @@ app.use(cors())
 app.use(express.json())
 
 app.get('/api/v1', (req, res) => {
-    console.log("yeah, round robin")
+    console.log("yeah, Iron robin")
     res.send('<h2>A Quite Place with you</h2>')
 })
 app.use("/api/v1/posts", postRouter)
